@@ -40,8 +40,10 @@
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    // tsup's dts build injects baseUrl, deprecated in TS 6
+    "ignoreDeprecations": "6.0"
   },
   "include": ["**/*"],
-  "exclude": ["node_modules", "dist", "build", "out"]
+  "exclude": ["node_modules", "dist/**/*", "build", "out"]
 }
