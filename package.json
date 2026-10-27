@@ -1,6 +1,6 @@
 {
   "name": "pr2",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Навчальна TypeScript-бібліотека утиліт (add, capitalize, formatNumber, groupBy, Logger) з .env-конфігом через zod",
   "license": "ISC",
   "author": "",
